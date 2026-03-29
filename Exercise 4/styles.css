@@ -1,0 +1,91 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+/* Header */
+header {
+    background-color: #17072b;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Underline the header and change font */
+header h1 {
+    text-decoration: underline;
+    font-family: "Tahoma"; font-weight: 700;
+}
+
+
+/* Navigation */
+nav {
+    background-color: #17072b;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #FFFFFF;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Layout */
+main {
+    display: flex;
+    padding: 20px;
+}
+
+/* Left content */
+.content {
+    flex: 3;
+}
+
+/* Images under text */
+.images {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.images img {
+    width: 48%;
+    height: auto;
+}
+
+/* Sidebar */
+aside {
+    flex: 1;
+    background-color: #172d67;
+    color: #FFFFFF;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+aside ul {
+    padding-left: 20px;
+}
+
+/* Sidebar images */
+.side-images {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.side-images img {
+    width: 48%;
+}
+
+/* Footer */
+footer {
+    background-color: #8c15e9;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
