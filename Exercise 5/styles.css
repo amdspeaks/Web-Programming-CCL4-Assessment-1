@@ -1,0 +1,16 @@
+/* Centers full screen */
+body {
+    margin: 0;
+    height: 100vh; /* The full screen height */
+    display: flex;
+    justify-content: center; /* Horizontal centers the video */
+    align-items: center; /* Vertical centers the video too */
+    background-color: #000;
+}
+
+/* Optional styling */
+.video-container video {
+    max-width: 80%;
+    border: 3px solid white;
+    border-radius: 10px;
+}
