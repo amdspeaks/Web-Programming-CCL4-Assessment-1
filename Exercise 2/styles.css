@@ -1,0 +1,41 @@
+/* Styles the entire page */
+body {
+    font-family: Arial, sans-serif; /* Sets font */
+    margin: 0; /* Removes default spacing */
+    background-color: #111; /* Gives a Dark background */
+    color: #fff; /* Text color */
+}
+
+/* Navigation bar styling */
+.navbar {
+    background-color: #222;
+    padding: 10px;
+}
+
+/* Links inside navbar */
+.navbar a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none; /* Removes underline */
+}
+
+/* Section layout */
+.section {
+    padding: 40px;
+}
+
+/* Button-style link */
+.btn {
+    display: inline-block; /* Allows padding */
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Hover effect for button */
+.btn:hover {
+    background-color: #45a049;
+}
