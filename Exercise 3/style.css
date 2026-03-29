@@ -1,0 +1,51 @@
+/* Page styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Gallery layout */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+/* Base image box style */
+.img-box {
+    padding: 10px;
+}
+
+/* Ensure images stay under 300kb (you control this when choosing images) */
+img {
+    max-width: 100%;
+    height: auto; /* keeps aspect ratio */
+}
+
+/* === Custom styles for each image === */
+
+/* Image A - purple border + red glow */
+.imgA img {
+    border: 4px solid purple;
+    box-shadow: 10px 10px 15px red;
+}
+
+/* Image B - multiple layered borders */
+.imgB img {
+    border: 6px solid blue;
+    box-shadow:
+        0 0 0 6px red,
+        0 0 0 12px green;
+}
+
+/* Image C - green border */
+.imgC img {
+    border: 4px solid green;
+}
+
+/* Caption styling */
+figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+}
